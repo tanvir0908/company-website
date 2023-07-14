@@ -273,7 +273,103 @@
   text-align: justify;
   font-size: 16px;
 }
-/* Mobile Device */
+
+/* Comment */
+.comment {
+  margin-bottom: 10rem;
+}
+.comment-title {
+  color: #333;
+  font-size: 36px;
+  width: 70%;
+  font-weight: 600;
+  margin-left: 165px;
+  margin-bottom: 1rem;
+}
+.comment-people {
+  margin-left: 165px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.comment-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+}
+.comment-name {
+  color: #333;
+  font-size: 22px;
+  font-weight: 500;
+}
+.comment-description {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Footer Section */
+footer {
+  background-color: #09140f;
+  padding-top: 5rem;
+}
+.footer-container {
+  margin-left: 165px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.copyright {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 12px;
+}
+.footer-div1 ul li {
+  list-style: none;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+}
+.footer-div2 {
+  color: white;
+}
+.social {
+  margin-top: 0.5rem;
+}
+.social i {
+  margin-right: 10px;
+}
+.footer-contact {
+  color: #f2f2f2;
+  font-size: 14px;
+}
+.footer-form input {
+  margin-top: 1rem;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 0 20px;
+  width: 70%;
+  height: 57px;
+  outline: none;
+  border: none;
+}
+.footer-btn {
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #5fcc9c;
+  height: 50px;
+  width: 80px;
+  position: relative;
+  left: 59%;
+  top: -53.5px;
+}
+/* ---------------------------------------- */
+/* ----------Mobile Device---------- */
+/* ---------------------------------------- */
 @media screen and (max-width: 576px) {
   /* Navbar */
   .navbar {
@@ -418,5 +514,40 @@
   .people3 {
     top: -5%;
     left: 105%;
+  }
+  /* Comment */
+  .comment-title {
+    font-size: 26px;
+    width: 85%;
+    margin-left: 40px;
+  }
+  .comment-people {
+    margin-left: 40px;
+    gap: 1rem;
+  }
+  .comment-name {
+    font-size: 20px;
+  }
+  .comment-description {
+    font-size: 14px;
+  }
+
+  /* Copyright */
+  .footer-container {
+    margin-left: 40px;
+    grid-template-columns: 1fr;
+  }
+  .footer-div2 {
+    margin: 1.5rem 0rem;
+  }
+  .footer-div1 ul li {
+    font-size: 14px;
+  }
+  .footer-form input {
+    width: 75%;
+  }
+  .footer-btn {
+    left: 62.5%;
+    top: -53.5px;
   }
 }
