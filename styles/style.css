@@ -364,8 +364,8 @@ footer {
   height: 50px;
   width: 80px;
   position: relative;
-  left: 59%;
-  top: -53.5px;
+  left: -17.5%;
+  top: 0.5px;
 }
 /* ---------------------------------------- */
 /* ----------Mobile Device---------- */
@@ -547,7 +547,7 @@ footer {
     width: 75%;
   }
   .footer-btn {
-    left: -17.5%;
-    top: 0.5px;
+    left: 62.5%;
+    top: -53.5px;
   }
 }
