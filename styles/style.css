@@ -71,6 +71,7 @@
   border-radius: 8px;
 }
 .home-title2 {
+  width: 50%;
   font-size: 48px;
   font-weight: 600;
   color: #333;
@@ -79,7 +80,7 @@
 .home-description {
   margin-top: 2rem;
   margin-left: 277px;
-  width: 26%;
+  width: 34%;
   text-align: justify;
   color: #4f4f4f;
   font-size: 18px;
@@ -99,7 +100,7 @@
   background-color: #f2f2f2;
   border-radius: 8px;
   padding: 0 20px;
-  width: 310px;
+  width: 39%;
   height: 57px;
   outline: none;
   border: none;
@@ -116,4 +117,63 @@
   position: relative;
   left: -8.2%;
   top: 2px;
+}
+
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+  /* Navbar */
+  .navbar {
+    padding-top: 15px;
+  }
+  .nav-logo {
+    gap: 2%;
+  }
+  .logo-image {
+    width: 10%;
+  }
+  .logo-title {
+    font-size: 24px;
+  }
+  .nav-list {
+    display: none;
+  }
+  /* Home */
+  .home-question {
+    margin-top: 100px;
+    font-size: 16px;
+    margin-left: 40px;
+  }
+  .home-title1 {
+    margin-left: 40px;
+    font-size: 26px;
+  }
+  .home-image {
+    height: 25vh;
+    margin: 1rem auto;
+  }
+  .home-title2 {
+    font-size: 24px;
+    margin-left: 40px;
+    width: 80%;
+  }
+  .home-description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    width: 58%;
+    margin-left: 40px;
+  }
+  .form-question {
+    margin-left: 40px;
+  }
+  .home-form {
+    margin-left: 40px;
+  }
+  .home-form input {
+    width: 270px;
+  }
+  .btn {
+    left: 64.2%;
+    top: -53.5px;
+  }
 }
