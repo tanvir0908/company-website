@@ -96,7 +96,7 @@
 .home-form {
   margin-top: 5px;
   margin-left: 277px;
-  margin-bottom: 2rem;
+  margin-bottom: 10rem;
 }
 .home-form input {
   background-color: #f2f2f2;
@@ -120,7 +120,159 @@
   left: -8.2%;
   top: 2px;
 }
+.btn:hover {
+  background-color: #2f664e;
+}
+/* Services Section */
+.services {
+  margin: 5rem 0;
+}
+.service-title {
+  width: 30%;
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-left: 165px;
+}
+.services-div {
+  display: flex;
+  gap: 15px;
+  margin-left: 165px;
+  width: 80vw;
+  margin-top: 2rem;
+}
+.service-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #5fcc9c;
+  height: 10vh;
+  width: 5vw;
+  margin-bottom: 2rem;
+}
+.service-list {
+  padding: 50px 30px;
+  border-radius: 8px;
+}
+.service-list:hover {
+  box-shadow: 0px 10px 30px 0px #8fdbb9;
+}
+.service-header {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.service-description {
+  color: #4f4f4f;
+  font-size: 16px;
+  width: 90%;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+.service-button {
+  height: 3rem;
+  width: 8rem;
+  border: none;
+  background-color: #5fcc9c;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+.service-button:hover {
+  background-color: #2f664e;
+}
 
+/* Project Section  */
+.projects {
+  margin-bottom: 5rem;
+}
+.project-section-title {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  width: 35%;
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin-left: 165px;
+}
+.all-projects {
+  display: grid;
+  margin: 0 165px;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.project-image {
+  border-radius: 8px;
+  height: 534px;
+}
+.botton-image {
+  margin-top: 8rem;
+}
+.project-description {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #828282;
+}
+.project-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: 500;
+}
+.see-more {
+  cursor: pointer;
+  text-align: right;
+  margin-right: 120px;
+  font-size: 20px;
+  color: #5fcc9c;
+  font-weight: 500;
+}
+
+/* Team Section */
+.team {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin: 10rem 165px;
+}
+.team-image-div {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.people-team {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+}
+.people1 {
+  position: relative;
+  top: 50%;
+}
+.people3 {
+  position: relative;
+  left: 110%;
+}
+.red-text {
+  font-size: 18px;
+  color: #5fcc9c;
+  font-weight: 500;
+}
+.team-title {
+  margin: 1rem 0;
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
+  width: 70%;
+}
+.team-description {
+  color: #4f4f4f;
+  width: 60%;
+  text-align: justify;
+  font-size: 16px;
+}
 /* Mobile Device */
 @media screen and (max-width: 576px) {
   /* Navbar */
@@ -165,7 +317,7 @@
   .home-description {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 14px;
+    font-size: 16px;
     width: 58%;
     margin-left: 40px;
   }
@@ -174,6 +326,7 @@
   }
   .home-form {
     margin-left: 40px;
+    margin-bottom: 0rem;
   }
   .home-form input {
     width: 270px;
@@ -181,5 +334,89 @@
   .btn {
     left: 64.2%;
     top: -53.5px;
+  }
+
+  /* Services Section */
+  .service-title {
+    width: 60%;
+    margin-left: 40px;
+    font-size: 24px;
+  }
+  .services-div {
+    margin-left: 40px;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .service-icon {
+    height: 9vh;
+    width: 18vw;
+    margin-bottom: 1rem;
+  }
+  .service-header {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
+  .service-description {
+    color: #4f4f4f;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Projects */
+  .project-section-title {
+    width: 70%;
+    font-size: 26px;
+    margin-left: 40px;
+  }
+  .all-projects {
+    margin: 0 35px;
+    grid-template-columns: 1fr;
+  }
+  .project-image {
+    margin: 0;
+    width: 324px;
+    height: 305px;
+  }
+  .project-description {
+    margin-top: 0.5rem;
+  }
+  .project-title {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .see-more {
+    font-size: 16px;
+    margin-left: 40px;
+    text-align: left;
+  }
+
+  /* Team */
+  .team {
+    flex-direction: column;
+    margin: 0px 40px;
+    margin-bottom: 5rem;
+  }
+  .red-text {
+    font-size: 16px;
+  }
+  .team-title {
+    margin: 0.5rem 0;
+    font-size: 26px;
+    width: 80%;
+  }
+  .team-description {
+    width: 75%;
+  }
+  .team-image-div {
+    gap: 10px;
+  }
+  .people-team {
+    width: 170px;
+    height: 170px;
+  }
+  .people3 {
+    top: -5%;
+    left: 105%;
   }
 }
