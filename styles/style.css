@@ -310,6 +310,7 @@
 
 /* Footer Section */
 footer {
+  width: auto;
   background-color: #09140f;
   padding-top: 5rem;
 }
@@ -362,10 +363,8 @@ footer {
   font-weight: 500;
   background-color: #5fcc9c;
   height: 50px;
-  width: 80px;
-  position: relative;
-  left: 233px;
-  top: -53.5px;
+  width: 100px;
+  margin-top: 10px;
 }
 /* ---------------------------------------- */
 /* ----------Mobile Device---------- */
